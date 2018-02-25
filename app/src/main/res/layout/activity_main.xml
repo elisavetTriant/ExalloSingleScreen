@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true"
+    android:paddingBottom="@dimen/elements_margin"
+    tools:context="co.elisavet.exallosinglescreen.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/exallo_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/elements_margin"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_exallo"
+            style="@style/Headings" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_description"
+            style="@style/MainText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_philosophy"
+            style="@style/MainText"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/products"
+            style="@style/Headings"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mens_wooden_bow_ties"
+            style="@style/Headings"/>
+
+        <ImageView
+            android:id="@+id/mens_wooden_bow_ties"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/elements_margin"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/menbowties" />
+
+        <Button
+            android:id="@+id/mens_wooden_bow_ties_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/elements_margin"
+            android:text="@string/view_more_mens_wooden_bow_ties"
+            android:onClick="buttonPress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kids_wooden_bow_ties"
+            style="@style/Headings" />
+
+        <ImageView
+            android:id="@+id/kids_wooden_bow_ties"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/elements_margin"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/kidsbowties" />
+
+        <Button
+            android:id="@+id/kids_wooden_bow_ties_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/elements_margin"
+            android:text="@string/view_more_kids_wooden_bow_ties"
+            android:onClick="buttonPress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wooden_cuff_links"
+            style="@style/Headings" />
+
+        <ImageView
+            android:id="@+id/wooden_cuff_links"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/elements_margin"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cufflinks" />
+
+        <Button
+            android:id="@+id/wooden_cuff_links_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/elements_margin"
+            android:text="@string/view_more_wooden_cuff_links"
+            android:onClick="buttonPress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wooden_phone_cases"
+            style="@style/Headings" />
+
+        <ImageView
+            android:id="@+id/wooden_phone_cases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/phonecases" />
+
+        <Button
+            android:id="@+id/wooden_phone_cases_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/elements_margin"
+            android:text="@string/view_more_wooden_phone_cases"
+            android:onClick="buttonPress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wedding_package"
+            style="@style/Headings" />
+
+        <ImageView
+            android:id="@+id/wending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/elements_margin"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/wedding" />
+
+        <Button
+            android:id="@+id/wooden_wedding_packages_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/elements_margin"
+            android:text="@string/learn_more_about_our_wedding_packages"
+            android:onClick="buttonPress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/meet_the_makers"
+            style="@style/Headings"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_makers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_maker1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/leonidas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/elements_margin"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/leonidas" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leonidas_souras"
+                style="@style/Headings"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/leonidas_description"
+                style="@style/MainText"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_maker2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/babis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/elements_margin"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/babis" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/babis_souras"
+                style="@style/Headings" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/babis_description"
+                style="@style/MainText"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us"
+            style="@style/Headings"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/workshop_location"
+            style="@style/MainText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:autoLink="email"
+            style="@style/MainText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:autoLink="phone"
+            style="@style/MainText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/website"
+            android:autoLink="web"
+            style="@style/MainText"/>
+
+
+    </LinearLayout>
+</ScrollView>

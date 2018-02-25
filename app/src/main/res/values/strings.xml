@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Exallo</string>
+    <string name="about_exallo">About Exallo</string>
+    <string name="about_description">Wooden bow ties, cuff links, phone cases and wedding packages. Sustainable ethically handcrafted accessories made in Mount Olympus, Greece.</string>
+    <string name="about_philosophy">Our philosophy is simple: Take a “dead” material and transform it into a useful object, honoring the intrinsic uniqueness and beauty of the substance and the wearer alike.</string>
+    <string name="products">Products</string>
+    <string name="mens_wooden_bow_ties">Mens Wooden Bow Ties</string>
+    <string name="kids_wooden_bow_ties">Kids Wooden Bow Ties</string>
+    <string name="wooden_cuff_links">Wooden Cuff Links</string>
+    <string name="wooden_phone_cases">Wooden Phone Cases</string>
+    <string name="wedding_package">Wedding Packages</string>
+    <string name="meet_the_makers">Meet The Makers</string>
+    <string name="leonidas_souras">Leonidas Souras</string>
+    <string name="leonidas_description">“The brains behind the product design”</string>
+    <string name="babis_souras">Babis Souras</string>
+    <string name="babis_description">“The artist behind the production process”</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="workshop_location">Workshop Location  \nM. Alexandrou 75 \nKolindros Pieria, 60061  \nGreece.</string>
+    <string name="email">Email: hello@exallo.eu</string>
+    <string name="phone">Phone: +30 23530 31821</string>
+    <string name="website">Or visit our website at: https://exallo.co/</string>
+    <string name="view_more_mens_wooden_bow_ties">View More Mens Wooden Bow Ties</string>
+    <string name="view_more_kids_wooden_bow_ties">View More Kids Wooden Bow Ties</string>
+    <string name="view_more_wooden_cuff_links">View More Wooden Cuff Links</string>
+    <string name="view_more_wooden_phone_cases">View More Wooden Phone Cases</string>
+    <string name="learn_more_about_our_wedding_packages">Learn More About Our Wedding Packages</string>
+</resources>
