@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         } else {
-            Toast.makeText(getApplicationContext(), "This button opens a Web Page and you don't seem to have a browser installed!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.no_browser_detected), Toast.LENGTH_LONG).show();
         }
     }
 

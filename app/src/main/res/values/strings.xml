@@ -24,4 +24,5 @@
     <string name="view_more_wooden_cuff_links">View More Wooden Cuff Links</string>
     <string name="view_more_wooden_phone_cases">View More Wooden Phone Cases</string>
     <string name="learn_more_about_our_wedding_packages">Learn More About Our Wedding Packages</string>
+    <string name="no_browser_detected">This button opens a Web Page and you don\'t seem to have a browser installed!</string>
 </resources>
