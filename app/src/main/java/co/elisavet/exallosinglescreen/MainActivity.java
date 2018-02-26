@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
+    // https://stackoverflow.com/questions/13032333/droid-how-to-get-button-id-from-onclick-method-described-in-xml
     public void buttonPress(View v) {
         switch (v.getId()) {
             case R.id.mens_wooden_bow_ties_button:
@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // https://developer.android.com/guide/components/intents-common.html#Browser
     public void openWebPage(String url) {
         Uri webpage = Uri.parse(url);
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
